@@ -1,11 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="Page-1" id="b9UFh0RMMuQCNNjzs8wQ">
-    <mxGraphModel dx="786" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="655" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TigTuKabIQQMazamRU1V-1" value="" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.router;network2IconXOffset=0.0001;network2IconYOffset=-0.1142;network2IconW=1;network2IconH=0.5485;" vertex="1" parent="1">
-          <mxGeometry x="370" y="220" width="50" height="27.425" as="geometry" />
+        <mxCell id="dGhStu9_GfDLZGVDIshM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="239.67249999999999" as="targetPoint" />
+            <mxPoint x="390" y="239.96" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TigTuKabIQQMazamRU1V-1" value="ROUTER&#xa;DYNAMIC IP" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.router;network2IconXOffset=0.0001;network2IconYOffset=-0.1142;network2IconW=1;network2IconH=0.5485;" parent="1" vertex="1">
+          <mxGeometry x="340" y="220" width="36.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dGhStu9_GfDLZGVDIshM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="240.07499999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-1" value="Access Point (AP) mode&#xa;" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.modem;network2IconYOffset=0.0131;network2IconW=1;network2IconH=0.2938;" vertex="1" parent="1">
+          <mxGeometry x="520" y="232.73000000000002" width="50" height="14.69" as="geometry" />
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dGhStu9_GfDLZGVDIshM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657.085" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657.085" y="350" as="targetPoint" />
+            <mxPoint x="657" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-3" value="LAN&#xa;connection" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.lan;network2IconYOffset=0.0558;network2IconW=1.0834;network2IconH=0.7564;" vertex="1" parent="1">
+          <mxGeometry x="630" y="221.16" width="54.169999999999995" height="37.82" as="geometry" />
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-7" value="ISP&#xa;(TIME)" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.antenna;network2IconYOffset=0.0004;network2IconW=0.508;network2IconH=0.9997;" vertex="1" parent="1">
+          <mxGeometry x="345.53000000000003" y="82" width="25.4" height="49.985" as="geometry" />
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.489;entryY=-0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TigTuKabIQQMazamRU1V-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="358" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGhStu9_GfDLZGVDIshM-9" value="SERVER" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;" vertex="1" parent="1">
+          <mxGeometry x="634.16" y="82" width="50.005" height="29.060000000000002" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
