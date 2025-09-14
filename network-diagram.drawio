@@ -57,7 +57,7 @@
             <mxPoint x="449" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGhStu9_GfDLZGVDIshM-9" value="SERVER" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;" vertex="1" parent="1">
+        <mxCell id="dGhStu9_GfDLZGVDIshM-9" value="PROXMOX &#xa;SERVER" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;" vertex="1" parent="1">
           <mxGeometry x="423.99999999999994" y="279.46" width="50.005" height="29.060000000000002" as="geometry" />
         </mxCell>
         <mxCell id="dGhStu9_GfDLZGVDIshM-11" value="LAPTOP" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.monitor;network2IconYOffset=-0.009;network2IconW=1;network2IconH=0.742;" vertex="1" parent="1">
