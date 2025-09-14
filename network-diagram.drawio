@@ -69,7 +69,7 @@
         <mxCell id="dGhStu9_GfDLZGVDIshM-12" value="VPN" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.lock;network2IconW=0.8;network2IconH=0.9999;" vertex="1" parent="dGhStu9_GfDLZGVDIshM-14">
           <mxGeometry x="348.5" y="74.38" width="41" height="51.24" as="geometry" />
         </mxCell>
-        <mxCell id="dGhStu9_GfDLZGVDIshM-16" value="PUBLIC IP&lt;div&gt;VPN&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" vertex="1" parent="1">
+        <mxCell id="dGhStu9_GfDLZGVDIshM-16" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DMZ&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PUBLIC IP TO VPN&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" vertex="1" parent="1">
           <mxGeometry x="50" y="408.15999999999997" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
