@@ -1,0 +1,49 @@
+
+# Homelab VM Specifications
+
+## Production VMs
+
+### VM1 - aaPanel (Web Hosting)
+- CPU: 2 vCPU
+- RAM: 4 GB
+- Disk: 40-60 GB
+- OS: Ubuntu 22.04 / Debian 11
+- Purpose: Web hosting (WordPress, Ghost, Databases)
+
+### VM2 - Docker Host
+- CPU: 4 vCPU
+- RAM: 8 GB
+- Disk: 100 GB
+- OS: Ubuntu 22.04 / Debian 11
+- Purpose: Containerized apps (GitLab, Jenkins, Ghost test, Portainer, Kubernetes later)
+
+### VM3 - WireGuard VPN (wg-easy GUI inside Docker)
+- CPU: 1 vCPU
+- RAM: 1 GB
+- Disk: 10 GB
+- OS: Debian Minimal / Ubuntu Minimal
+- Purpose: VPN access to homelab
+
+### VM5 - Cloudflare Tunnel
+- CPU: 1 vCPU
+- RAM: 1 GB
+- Disk: 5 GB
+- OS: Debian Minimal / Ubuntu Minimal
+- Purpose: Secure remote access via Cloudflare Zero Trust
+
+
+------ OPTIONAL-------
+
+### VM4 - Nextcloud (Optional / Dedicated)
+- CPU: 2 vCPU
+- RAM: 4 GB
+- Disk: 100 GB+ (expandable, attach extra storage)
+- OS: Ubuntu 22.04 / Debian 11
+- Purpose: Personal cloud storage & file sync
+
+
+## Notes
+- Adjust resources based on workload and available hardware.
+- Production workloads (aaPanel, WireGuard, Nextcloud) should run as **VMs** for stability and isolation.
+- Lab workloads (Grafana, Kubernetes, Security Lab) can run on **CTs** (lightweight).
+- Backup critical VMs regularly.
